@@ -1,0 +1,6 @@
+version: '3'
+services:
+  nuxeo:
+    image: "nuxeo/nuxeo:discover-ft"
+    ports:
+    - "8080:8080"
